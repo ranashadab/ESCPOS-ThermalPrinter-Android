@@ -41,7 +41,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.DantSu'
+                groupId = 'com.github.ranashadab'
                 artifactId = 'ESCPOS-ThermalPrinter-Android'
                 version = libraryVersionName
             }
